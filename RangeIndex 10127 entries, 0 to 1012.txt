@@ -1,0 +1,56 @@
+RangeIndex: 10127 entries, 0 to 10126
+Data columns (total 22 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   CLIENTNUM                 10127 non-null  int64  
+ 1   Attrition_Flag            10127 non-null  object 
+ 2   Customer_Age              10127 non-null  int64  
+ 3   Gender                    10127 non-null  object 
+ 4   Dependent_count           10127 non-null  int64  
+ 5   Education_Level           10127 non-null  object 
+ 6   Marital_Status            10127 non-null  object 
+ 7   Income_Category           10127 non-null  object 
+ 8   Card_Category             10127 non-null  object 
+ 9   Months_on_book            10127 non-null  int64  
+ 10  Total_Relationship_Count  10127 non-null  int64  
+ 11  Months_Inactive_12_mon    10127 non-null  int64  
+ 12  Contacts_Count_12_mon     10127 non-null  int64  
+ 13  Credit_Limit              10127 non-null  float64
+ 14  Total_Revolving_Bal       10127 non-null  int64 - O Total_Revolving_Bal representa o saldo rotativo total de um cliente, ou seja, o valor que ainda não foi pago em um cartão de crédito e que está sujeito a juros. Isso indica o nível de endividamento atual do cliente.
+
+ 15  Avg_Open_To_Buy           10127 non-null  float64 - O conceito de Avg_Open_To_Buy se refere ao limite de crédito disponível para o cliente após subtrair o saldo devedor atual (Total_Revolving_Bal) do limite total de crédito (Credit_Limit). Basicamente, é quanto crédito o cliente ainda pode usar.
+
+ 16  Total_Amt_Chng_Q4_Q1      10127 non-null  float64
+ 17  Total_Trans_Amt           10127 non-null  int64  
+ 18  Total_Trans_Ct            10127 non-null  int64  
+ 19  Total_Ct_Chng_Q4_Q1       10127 non-null  float64
+ 20  Avg_Utilization_Ratio     10127 non-null  float64 - O Avg_Utilization_Ratio representa a razão média de utilização do cliente, que mede o quanto do limite de crédito disponível o cliente está usando, expressa como uma proporção (0 a 1).
+
+ 21  KMeans_Cluster            10127 non-null  int32  
+dtypes: float64(5), int32(1), int64(10), object(6)
+
+
+
+Cluster 0
+
+
+
+
+Cluster 1
+
+
+
+
+Cluster 2
+
+
+
+
+Cluster 3
+Credit Limit much more higher - mean 26028.56
+
+
+
+Cluster 4
+
+
